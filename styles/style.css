@@ -1,0 +1,111 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: #3aa3ff;
+    background-image: repeating-linear-gradient(90deg, #3aa3ff 0 20px, #4ab3ff 20px 40px);
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px 50px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+.autore {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.autore a {
+    color: #0080ff;
+    text-decoration: none;
+}
+
+.immagini {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.immagini img {
+    width: 100%;
+    max-width: 380px;
+    border: 1px solid #ccc;
+}
+
+.crediti {
+    font-size: 0.7em;
+    margin-top: 3px;
+    color: #333;
+}
+
+.evidenziato {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th {
+    background-color: #9ce5ff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    background-color: #d8f2ff;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid white;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.interessi {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.interesse {
+    width: 250px;
+}
+
+.interesse img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.interesse p {
+    background-color: #9c003f;
+    color: white;
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+}
